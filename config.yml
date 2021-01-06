@@ -1,0 +1,18 @@
+title: Daimondbtcminer.io
+description: >-
+  The front-end should have a pricing table of 8 columns,  a menu with home,
+  plans, payout, affiliate and the contact sections.
+template:
+  repo: daimondbtcminer.io-template
+  name: daimondbtcminer.io
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
